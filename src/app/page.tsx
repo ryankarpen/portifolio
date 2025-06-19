@@ -365,7 +365,11 @@ export default function Home() {
               slidesPerView={1}
               modules={[Pagination]}
               pagination={{ clickable: true }}
-              breakpoints={{ spaceBetween: 36 }}
+              breakpoints={{
+                640: {
+                  spaceBetween: 36,
+                }
+              }}
               speed={1000}
               className="min-h-[500px] max-w-[90vw] sm:min-h-[600px] sm:max-w-screen"
             >
