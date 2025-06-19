@@ -3,7 +3,7 @@
 import useAppData from "../data/hook/useAppData"
 import BotaoAlterarTema from "./BotaoAlterarTema";
 import { DevIcon } from "./icons";
-import * as motion from 'motion/react-client'
+import {motion} from 'framer-motion'
 
 
 export default function Header(){

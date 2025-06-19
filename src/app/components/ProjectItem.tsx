@@ -1,5 +1,5 @@
 "use client";
-import * as motion from 'motion/react-client'
+import {motion} from 'framer-motion'
 import BotaoVisitarProjeto from './BotaoVisitarProjeto';
 import { FirebaseIcon, NextIcon, ReactIcon, TailwindIcon } from './icons';
 

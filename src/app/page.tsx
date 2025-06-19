@@ -5,8 +5,8 @@ import Header from './components/Header';
 import Image from 'next/image';
 import useAppData from './data/hook/useAppData';
 import  { FirebaseIcon, HtmlIcon, JavascriptIcon, NextIcon, ReactIcon, TailwindIcon, TypescriptIcon, CssIcon, GitIcon, GithubIcon, WhatssappIcon, InstagramIcon, LinkedinIcon, EmailIcon, JobIcon, BookIcon, PcIcon, Phone } from './components/icons';
-import * as motion from 'motion/react-client'
-import { animate, stagger } from "motion"
+import {motion} from 'framer-motion'
+import { animate, stagger } from "framer-motion"
 import { ComponentType, useEffect, useRef, useState, SVGProps, JSX } from 'react';
 import { splitText } from "motion-plus"
 import { Swiper, SwiperSlide, } from 'swiper/react';
@@ -233,6 +233,7 @@ export default function Home() {
   function closeForm(){
     setOpenForm(false)
   }
+
 
 
   return (
