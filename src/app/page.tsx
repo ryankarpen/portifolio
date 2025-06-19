@@ -294,7 +294,7 @@ export default function Home() {
                   <motion.li
                     key={key}
                     layout
-                    transition={spring}
+                    transition={{ type: "spring", damping: 10, stiffness: 100, mass: 1 }}
                     className="
                       flex rounded-[10px] flex-col justify-center items-center
                       shadow-[0_2px_6px_rgba(0,0,0,0.1)] bg-zinc-700
