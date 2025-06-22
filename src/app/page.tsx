@@ -371,7 +371,7 @@ export default function Home() {
                 }
               }}
               speed={1000}
-              className="min-h-[600px] max-w-[90vw] sm:min-h-[600px] sm:max-w-screen border-2"
+              className="min-h-[600px] max-w-[90vw] sm:min-h-[600px] sm:max-w-screen"
             >
               {projects.map((project) => {
                 const ProjectComponent = project.Item
