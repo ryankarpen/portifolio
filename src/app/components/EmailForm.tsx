@@ -19,7 +19,7 @@ export default function EmailForm(props: EmailFormProps){
         <form action="" onSubmit={(e) => {
             e.preventDefault()
             props.sendEmail()
-        }} className="flex flex-col border border-white/20 shadow-lg rounded-lg h-[350px] w-[400px] sm:h-[400px] sm:w-[500px] p-4 backdrop-blur-sm bg-gradient-to-br from-blue-800/70 via-blue-700/60 to-blue-900/70">
+        }} className="flex flex-col border border-white/20 shadow-lg rounded-lg h-[350px] w-[380px] sm:h-[400px] sm:w-[500px] p-4 backdrop-blur-sm bg-gradient-to-br from-blue-800/70 via-blue-700/60 to-blue-900/70">
             <div onClick={props.closeForm} className="flex justify-center w-[30px] self-end cursor-pointer">
                 {CloseIcon}
             </div>

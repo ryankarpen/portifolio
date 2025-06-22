@@ -247,7 +247,7 @@ export default function Home() {
       `}
       >
         <section id="about" className="h-screen items-center gap-5 pt-10 flex flex-col sm:flex-row justify-center sm:items-start sm:pt-50 sm:gap-20">
-          <div className='flex text-start flex-col w-120 sm:w-150 text-yellow-300' ref={containerRef}>
+          <div className='flex text-start flex-col w-[90%] sm:w-150 text-yellow-300' ref={containerRef}>
             <TypeAnimation
               sequence={[
                 'Olá, me chamo Ryan Lucas Karpen!',
@@ -307,7 +307,7 @@ export default function Home() {
                 ))}
               </motion.ul>
               <motion.p 
-                className='w-120 pr-5 pl-5 sm:pl-0 sm:pr-0 sm:w-200 text-md sm:text-lg'
+                className='w-[90%] pr-5 pl-5 sm:pl-0 sm:pr-0 sm:w-200 text-md sm:text-lg'
                 initial={{ opacity: 0, y: 15 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
@@ -450,7 +450,7 @@ export default function Home() {
         </section>
         <footer className={`
               ${tema}
-              flex justify-center py-5 sm:py-10 border-t-1 border-gray-300 dark:border-gray-500 text-sm sm:text-lg mt-50
+              flex justify-center pl-5 sm:px-0 py-5 sm:py-10 border-t-1 border-gray-300 dark:border-gray-500 text-sm sm:text-lg mt-50
           `}>
           <p>© 2025 Ryan Lucas Karpen. Todos os direitos reservados.</p>
         </footer>
