@@ -14,7 +14,7 @@ export default function Header(){
         <aside className={`
             ${tema}
             sm:h-25 flex items-center justify-center gap-10 sm:gap-0 sm:justify-around px-5 sm:text-xl
-            text-white bg-gray-500 dark:text-white dark:bg-gray-900
+            text-white bg-gray-700 dark:text-white dark:bg-gray-900
         `}>
             <motion.div
                 className="hidden sm:block"
