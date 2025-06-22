@@ -16,9 +16,11 @@ html{
   scroll-behavior: smooth;
 }
 
-body{
-  overflow: auto;
+html, body{
+  overflow-x: hidden;
+  overflow-y: auto;
 }
+
 
 body::-webkit-scrollbar {
   display: none; /* Chrome, Safari e Edge */
