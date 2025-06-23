@@ -261,7 +261,7 @@ export default function Home() {
             <br />
             <p className=' text-white text-justify leading-relaxed text-md sm:text-lg'>
                Sou estudante de Ciência da Computação e um apaixonado por programação.
-               Esse portifólio é um espaço onde compartilho um pouco daquilo que venho aprendendo
+               Esse portfólio é um espaço onde compartilho um pouco daquilo que venho aprendendo
                e desenvolvendo na área da tecnologia.
             </p>
             <BotaoVisitarProjeto url='/curriculo-Ryan.pdf' label='Baixar Currículo'/>
